@@ -1,10 +1,18 @@
 # Comandos usando o git
 
-### Configurando a identificação no Git
+### Configurando a identificação no Git para o repositório atual
 
 ```bash
->> git config user.name "seuUsuario"
+>> git config  user.name "seuUsuario"
 >> git config user.email "seuEmail"
+```
+---
+
+### Configurando a identificação no Git globalmente na máquina
+
+```bash
+>> git config --global user.name "seuUsuario"
+>> git config --global user.email "seuEmail"
 ```
 ---
 
@@ -33,7 +41,7 @@ Depois de criar um repositório no github, executar os seguintes comandos ->
 
 Após copiar o link do repositório que deseja clonar, fazer ->
 ```bash
->> git clone codigocopiado
+>> git clone codigoCopiado
 >> code .
 ```
 ---
