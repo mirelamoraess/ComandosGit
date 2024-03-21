@@ -15,18 +15,16 @@ Depois de criar um repositório no github, executar os seguintes comandos ->
 ```bash
 >> git init
 >> git add .
->> git commit -m "commit"
->> git branch -M main
 >> git remote add origin https://github.com/seuLinkDoRepositorio
+>> git commit -m "nomeDoCommit"
 >> git push -u origin main
 ```
 ---
 
 ### Salvando uma nova versão
 ```bash
->> git status
 >> git add .
->> git commit -m "update"
+>> git commit -m "nomeDoNovoCommit"
 >> git push
 ```
 ---
