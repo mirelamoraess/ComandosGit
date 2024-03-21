@@ -3,8 +3,8 @@
 ### Configurando a identificação no Git
 
 ```bash
->> git config user.name "mirelamoraess"
->> git config user.email "mirela.moraes02@gmail.com"
+>> git config user.name "seuUsuario"
+>> git config user.email "seuEmail"
 ```
 ---
 
