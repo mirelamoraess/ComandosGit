@@ -17,7 +17,7 @@ Depois de criar um repositório no github, executar os seguintes comandos ->
 >> git add .
 >> git remote add origin https://github.com/seuLinkDoRepositorio
 >> git commit -m "nomeDoCommit"
->> git push -u origin main
+>> git push -u origin master
 ```
 ---
 
